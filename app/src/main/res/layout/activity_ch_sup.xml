@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chSupAct">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Select Size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radiogrpchSup"
+        android:layout_width="280dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="360dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButton9Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Small Personal Pizza"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButton14Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Pizza" />
+
+        <RadioButton
+            android:id="@+id/radioButton15Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Large Family Pizza" />
+
+        <RadioButton
+            android:id="@+id/radioButton16XL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Extra Large Party Pizza" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button4chSup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
